@@ -11,7 +11,6 @@ html {
 .body {
     font-family: 'Roboto';
     font-style: normal;
-    width: 1440px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -38,8 +37,8 @@ html {
 }
 
 .container {
-    margin-left: 141px;
-    margin-right: 141px;
+    margin-left: auto;
+    margin-right: auto;
     width: 1128px;
     padding-left: 15px;
     padding-right: 15px;
@@ -208,6 +207,7 @@ html {
     padding: 16px 32px;
     border-radius: 4px;
     font-weight: 500px;
+    border: 1px solid transparent;
 
     color: #FFFFFF;
     background: #4D5AE5;
@@ -286,9 +286,12 @@ html {
     text-align: center;
     margin: 0;
     margin-bottom: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 
     color: #2E2F42;
@@ -323,9 +326,12 @@ html {
     margin: 0px;
     padding: 0px;   
     margin-bottom: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -545,6 +551,7 @@ html {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     margin: 0px;
 
     letter-spacing: 0.02em;
