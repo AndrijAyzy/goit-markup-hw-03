@@ -571,9 +571,6 @@ html {
 }
 
 .portfolio-full {
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     padding: 0px 16px;
     padding-top: 32px;
     padding-bottom: 32px;
