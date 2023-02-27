@@ -204,9 +204,9 @@ html {
     margin: 0px;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 500px;
     padding: 16px 32px;
     border-radius: 4px;
-    font-weight: 500px;
     border: 1px solid transparent;
 
     color: #FFFFFF;
