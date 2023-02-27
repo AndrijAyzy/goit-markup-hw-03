@@ -314,9 +314,12 @@ html {
     gap: 24px;
 }
 
+.section-third-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .team-card {
-    width: 264px;
-    height: 380px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px
 }
@@ -336,16 +339,23 @@ html {
 }
 
 .section-third-names {
+    font-family: 'Roboto';
     font-size: 20px;
     line-height: 24px;
+    margin: 0px;
+    margin-bottom: 8px;
 
     text-align: center;
     letter-spacing: 0.02em;
 }
 
 .section-third-job {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin: 0px;
 
     text-align: center;
     letter-spacing: 0.02em;
@@ -548,7 +558,6 @@ html {
 .portfolio-top {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -577,8 +586,6 @@ html {
 }
 
 .portfolio-tab {
-    width: 360px;
-    height: 420px;
     background-color: #fff;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
